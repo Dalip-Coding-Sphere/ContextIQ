@@ -146,7 +146,7 @@ contextiq/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/contextiq.git
+git clone https://github.com/Dalip-Coding-Sphere/ContextIQ.git
 
 cd contextiq
 ```
@@ -194,7 +194,11 @@ npm run dev
 Open your browser and visit:
 
 ```text
+Frontend:
 http://localhost:5173
+
+Backend API:
+http://127.0.0.1:8000
 ```
 
 ## Environment Variables
@@ -229,17 +233,29 @@ VITE_API_BASE_URL=http://127.0.0.1:8000
 | DELETE | `/documents/{document_id}` | Delete a document from the vector database |
 | POST | `/chat/ask` | Ask questions about uploaded documents |
 
-## Deployment
+## Future Improvements
 
-The application can be deployed using the following services:
+- Support additional document formats such as DOCX and TXT.
+- Add multi-document filtering during question answering.
+- Implement user authentication and document-level access control.
+- Add conversation history for follow-up questions.
+- Deploy the application on a cloud platform with sufficient model memory.
 
-| Component | Platform |
-|----------|----------|
-| Frontend | Vercel |
-| Backend | Render |
-| Vector Database | Qdrant Cloud |
-| LLM | Groq API |
+## Demo
+
+ContextIQ currently runs in a local development environment.
+
+The screenshots above demonstrate the complete application workflow, including document upload, semantic retrieval, reranking, grounded question answering, and source references.
+
+The screenshots above demonstrate:
+- PDF document upload
+- Document management
+- Semantic retrieval
+- CrossEncoder reranking
+- Grounded question answering
+- Source references
+- Complete React user interface
 
 ## License
 
-This project was developed for learning and portfolio purposes.
+This project was developed for educational and portfolio purposes.
