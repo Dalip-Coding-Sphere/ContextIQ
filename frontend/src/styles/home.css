@@ -1,0 +1,132 @@
+.home-page {
+  display: grid;
+  gap: 16px;
+}
+
+.home-hero {
+  padding: 28px 30px;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  background:
+    radial-gradient(
+      circle at top right,
+      rgb(124 58 237 / 10%),
+      transparent 34%
+    ),
+    #ffffff;
+  box-shadow: 0 8px 24px rgb(15 23 42 / 5%);
+}
+
+.home-hero h1 {
+  max-width: 760px;
+  margin: 14px 0 0;
+  color: #0f172a;
+  font-size: clamp(32px, 3.4vw, 46px);
+  line-height: 1.08;
+  letter-spacing: -1.2px;
+}
+
+.home-description {
+  max-width: 820px;
+  margin: 12px 0 0;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.home-primary-button,
+.home-secondary-button {
+  display: inline-flex;
+  min-width: 176px;
+  min-height: 46px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 18px;
+  border-radius: 11px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.home-primary-button {
+  border: 0;
+  color: #ffffff;
+  background: #6d28d9;
+  box-shadow: 0 8px 18px rgb(109 40 217 / 20%);
+}
+
+.home-primary-button:hover {
+  background: #5b21b6;
+  transform: translateY(-1px);
+}
+
+.home-secondary-button {
+  border: 1px solid #d8e0ea;
+  color: #334155;
+  background: #ffffff;
+}
+
+.home-secondary-button:hover {
+  background: #f8fafc;
+}
+
+.home-support-text {
+  margin: 12px 0 0;
+  color: #64748b;
+  font-size: 12px;
+}
+
+.home-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.home-feature-card {
+  display: flex;
+  min-height: 104px;
+  align-items: flex-start;
+  gap: 13px;
+  padding: 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 6px 18px rgb(15 23 42 / 4%);
+}
+
+.home-feature-icon {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  place-items: center;
+  border-radius: 10px;
+  color: #6d28d9;
+  background: #f3e8ff;
+}
+
+.home-feature-card h3,
+.home-feature-card p {
+  margin: 0;
+}
+
+.home-feature-card h3 {
+  color: #1e293b;
+  font-size: 14px;
+}
+
+.home-feature-card p {
+  margin-top: 5px;
+  color: #64748b;
+  font-size: 11px;
+  line-height: 1.5;
+}

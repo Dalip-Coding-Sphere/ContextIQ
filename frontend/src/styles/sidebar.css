@@ -1,0 +1,85 @@
+.sidebar {
+  position: fixed;
+  inset: 0 auto 0 0;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  padding: 26px 18px;
+  color: #ffffff;
+  background: #111827;
+}
+
+.brand {
+  margin-bottom: 34px;
+}
+
+.app-logo h1,
+.app-logo p {
+  margin: 0;
+}
+
+.app-logo h1 {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 800;
+  letter-spacing: -0.4px;
+}
+
+.app-logo p {
+  margin-top: 5px;
+  color: #94a3b8;
+  font-size: 11px;
+}
+
+.navigation {
+  display: grid;
+  gap: 8px;
+}
+
+.nav-item {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 13px;
+  border: 0;
+  border-radius: 10px;
+  color: #cbd5e1;
+  background: transparent;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  color: #ffffff;
+  background: #1f2937;
+}
+
+.nav-item.active {
+  color: #ffffff;
+  background: #273449;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+  padding-top: 18px;
+  border-top: 1px solid #263244;
+}
+
+.sidebar-footer p,
+.sidebar-footer span {
+  margin: 0;
+}
+
+.sidebar-footer p {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.sidebar-footer span {
+  display: block;
+  margin-top: 5px;
+  color: #94a3b8;
+  font-size: 11px;
+}

@@ -1,0 +1,191 @@
+@media (max-width: 900px) {
+  .app-shell {
+    display: block;
+  }
+
+  .sidebar {
+    position: static;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .brand {
+    margin-bottom: 22px;
+  }
+
+  .navigation {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .nav-item {
+    justify-content: center;
+    padding: 11px 8px;
+  }
+
+  .sidebar-footer {
+    display: none;
+  }
+
+  .main-content {
+    width: 100%;
+    margin-left: 0;
+    padding: 22px 18px;
+  }
+
+  .topbar {
+    margin-bottom: 16px;
+  }
+
+  .topbar h2 {
+    font-size: 24px;
+  }
+
+  .home-feature-grid,
+  .document-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .home-actions,
+  .chat-toolbar,
+  .chat-input-wrapper,
+  .document-heading {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .home-primary-button,
+  .home-secondary-button,
+  .clear-chat-button {
+    width: 100%;
+  }
+
+  .home-hero {
+    padding: 26px 22px;
+  }
+
+  .home-hero h1 {
+    font-size: 36px;
+    letter-spacing: -1px;
+  }
+
+  .message-content {
+    max-width: 88%;
+  }
+
+  .chat-input-wrapper button {
+    min-height: 46px;
+  }
+
+  .document-card {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .delete-button {
+    margin-left: 66px;
+  }
+
+  .upload-success {
+    grid-template-columns: 1fr;
+  }
+
+  .upload-metrics {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    padding: 18px 14px;
+  }
+
+  .app-logo h1 {
+    font-size: 19px;
+  }
+
+  .navigation {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .nav-item {
+    justify-content: flex-start;
+  }
+
+  .main-content {
+    padding: 18px 12px 24px;
+  }
+
+  .topbar h2 {
+    font-size: 21px;
+  }
+
+  .home-hero {
+    padding: 22px 18px;
+  }
+
+  .home-hero h1 {
+    font-size: 31px;
+  }
+
+  .home-description {
+    font-size: 13px;
+  }
+
+  .home-feature-card {
+    min-height: auto;
+  }
+
+  .page-card {
+    padding: 20px 16px;
+  }
+
+  .messages-area {
+    padding: 18px 14px;
+  }
+
+  .message-content {
+    max-width: calc(100% - 48px);
+  }
+
+  .message-bubble {
+    padding: 12px 14px;
+    font-size: 13px;
+  }
+
+  .source-card {
+    width: 100%;
+  }
+
+  .chat-input-wrapper {
+    padding: 14px 14px 8px;
+  }
+
+  .chat-input-note {
+    padding: 0 15px 13px;
+  }
+
+  .document-card {
+    gap: 12px;
+    padding: 15px;
+  }
+
+  .document-icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .delete-button {
+    width: 100%;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .upload-actions {
+    flex-direction: column;
+  }
+
+  .upload-actions button {
+    width: 100%;
+  }
+}
